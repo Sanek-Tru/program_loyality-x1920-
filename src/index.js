@@ -1,0 +1,10 @@
+import './scss/head.scss'
+import './scss/fonts.scss'
+import './scss/program-loyality.scss'
+import './scss/advantages-program.scss'
+import './scss/become-member.scss'
+import './scss/offers.scss'
+import './scss/more-offers.scss'
+import './js/slider.js'
+import './js/cards.js'
+

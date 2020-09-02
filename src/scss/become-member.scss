@@ -1,0 +1,45 @@
+.become-member{
+    width: 100%;
+    height: 755px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    .title-become-member{
+        font-family:"LatoBold";
+        font-size: 42px; 
+        color: rgba($color: #101010, $alpha: 0.56);
+    }
+    .wrapper-steps{
+        width: 1452px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 41px;
+        .step{
+            width: 333px;
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            .number{
+                font-family:"LatoBold";
+                font-size: 111px; 
+                color: rgba($color: #101010, $alpha: 0.08);
+            }
+            .title-step{
+                text-align: center;
+                font-family:"LatoBold";
+                font-size: 23px; 
+                color: #101010;
+            }
+            .circle{
+                width: 23px;
+                height: 23px;
+                border-radius: 50%;
+                background: #e0e0e0;
+            }
+            .step-image{
+                margin-top: 131px;
+            }
+        }
+    }
+
+}

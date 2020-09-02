@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+}
+.head{
+    width: 100%;
+    height: 969px;
+    .content-head{
+        width: 1110px;
+        position: relative;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 20px;
+        .wrapper-right{
+            width: 333px;
+            display:flex;
+            align-items: center;
+            justify-content: space-between;
+            .title-lending{
+                font-family: "LatoBold";
+                font-size: 18px;
+                color:#FFFFFF ;
+            }
+        }
+        .wrapper-left{
+            display:flex;
+            align-items: center;
+            .sentence-partner{
+                width: 254px;
+                font-family: "LatoRegular";
+                font-size: 14px;
+                color:#FFFFFF ;
+                cursor: pointer;
+            }
+            .sign-in{
+                width: 232px;
+                height: 40px;
+                border:1px solid  #FFFFFF ;
+                background-color: rgba(123,123,123,0.2);
+                border-radius: 6px;
+                font-family: "LatoBold";
+                font-size: 14px;
+                color:#FFFFFF ;
+                cursor: pointer;
+            }
+        }
+    
+    }
+    .content-info{
+        width:1028px;
+        height: 227px;
+        border:2px solid  #FFFFFF ;
+        position: relative;
+        margin-top: 161px;
+        margin-left: -43px;
+        .top-text{
+            margin-top: 23px;
+            margin-left: 100px;
+            font-family: "RobotoLight";
+            font-size: 25px;
+            color: #FFFFFF ;
+            
+        }
+        .bottom-text{
+            margin-top: 45px;
+            margin-left: 100px;
+            width:827px;
+            font-family: "LatoBold";
+            font-size: 34px;
+            color:#FFFFFF ;
+        }
+    }
+    .image{
+        width: 100%;
+        height: 918px;
+        margin: 0;
+        position: absolute;
+    }
+    .enabled_selected{
+        position: absolute;
+    }
+}

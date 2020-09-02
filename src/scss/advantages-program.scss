@@ -1,0 +1,58 @@
+.advantages-program{
+    width: 100%;
+    height: 803px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .title-advantages{
+        font-family: "LatoBold";
+        font-size: 42px;
+        color: rgba($color: #000000, $alpha: 0.56)
+    }
+    .wrapper-advantages{
+        width: 1450px;
+        height: 518px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 85px;
+        .one-advantage{
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .rectangle-one{
+                width: 280px;
+                height: 311px;
+                background-color: white;
+                position: absolute;
+                margin-top:205px;
+                .wrapper-text-card{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    .title-one-card{
+                        width: 200px;
+                        text-align: center;
+                        font-family: "LatoBold";
+                        font-size: 16px;
+                        margin-top: 40px;
+                    }
+                    .text-one-card{
+                        width: 220px;
+                        font-family: "LatoLight";
+                        font-size: 12px;
+                        margin-top: 85px;
+                    }
+                }
+                
+            }
+
+        }
+        .ellipse4{
+            position: absolute;
+            top: 600px;
+            right:15px;
+        }
+    }
+
+}
